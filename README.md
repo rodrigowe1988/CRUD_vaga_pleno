@@ -1,10 +1,5 @@
 # CRUD_vaga_pleno
 
-<h1 align="center">programadorBR_fullstack_javascript</h1>
-
-## :memo: Curso Programador BR FullStack
-Curso que tem por linguagem o Javascript tanto no Frontend quanto no Backend
-
 ## :books: Funcionalidades
 * Simples CRUD para teste de vaga para Fullstack Dev Pleno
 
