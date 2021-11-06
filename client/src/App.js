@@ -9,6 +9,14 @@ function App() {
   const [position, setPosition] = useState('');
   const [wage, setWage] = useState(0);
 
+
+  /*
+  caso queira testar a saída das variáveis, somente adicione a chamada dessa função dentro button
+  const displayInfo = () => {
+    console.log(name+age+country+position+wage);
+  }
+  */
+
   return <div className="App">
     <h1>Konz Form</h1>
     <div class="information">
