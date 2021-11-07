@@ -39,24 +39,43 @@ input {
 }
 
 .employee {
+  text-align: center;
+  display: block;
   width: 80%;
   height: auto;
   border: 1px solid black;
-  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   padding: 10px;
   font-family: 'Courier New', Courier, monospace;
+  justify-content: center;
+
 }
 
-.teste1{
-  margin-right: 20px;
-  width: 200px;
+#new_value {
+  margin: 10px;
+  text-align: center;
+}
+
+.teste{
+  text-align: center;
+  padding: 15px;
+  height: 30px;
+  width: 220px;
 }
 
 .delete {
   background-color: lightcoral;
+  float: right;
 }
 
 .update {
   background-color: lightgreen;
+  float: left;
+}
+
+table {
+  width: 100%;
+  border: black solid 1px;
 }

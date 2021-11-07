@@ -118,23 +118,31 @@ function App() {
           return (
             <div className="employee">
               <div>
-
-                <h3>Name: {val.name}</h3>
-                <h3>Age: {val.age}</h3>
-                <h3>Country: {val.country}</h3>
-                <h3>Position: {val.position}</h3>
-                <h3>Wage: {val.wage}</h3>
-
-                <input class="teste1"
+                <table>
+                  <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Country</th>
+                    <th>Position</th>
+                    <th>Wage</th>
+                  </tr>
+                  <tr>
+                    <td>{val.name}</td>
+                    <td>{val.age}</td>
+                    <td>{val.country}</td>
+                    <td>{val.position}</td>
+                    <td>{val.wage}</td>
+                  </tr>
+                </table>
+                <div id="new_value">
+                <input class="teste"
                   type="text"
                   placeholder="New Value of Wage..."
                   onChange={(event) => {
                     setNewWage(event.target.value);
                   }}
                 />
-
-
-              </div>
+                </div>
               <div class="newEmployees">
               <button class="delete"
                   onClick={() => {
@@ -153,6 +161,7 @@ function App() {
                 </button>
               </div>
             </div>
+        </div>
           );
         })}
       </div>
