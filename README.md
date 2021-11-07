@@ -8,7 +8,7 @@
 * HTML e CSS
 * Javascript
 * NodeJS
-* Typescript
+* React
 * MySql
 
 ## :rocket: Imagem do projeto funcionando
