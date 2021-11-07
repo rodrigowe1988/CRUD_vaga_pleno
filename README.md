@@ -11,8 +11,8 @@
 * Typescript
 * MySql
 
-## :rocket: Rodando o projeto
-Para rodar o repositório é necessário simplesmente cloná-lo.
+## :rocket: Imagem do projeto funcionando
+<img width="409" alt="CRUD funcionando" src="https://user-images.githubusercontent.com/60714212/140627686-996b7999-acd4-4b6a-8b6d-7e3c5620f923.png">
 
 ## :soon: Implementação futura
 * <b>Servir como base de estudo para futuros programadores</b>
